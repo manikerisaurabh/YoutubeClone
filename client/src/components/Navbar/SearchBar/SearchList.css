@@ -6,11 +6,13 @@
     height: fit-content;
     z-index: 91;
 }
+
 .titleItem{
     margin: 0;
     padding: 0.5rem;
     cursor: pointer;
 }
+
 .titleItem:hover{
     background-color: rgba(166,202,234,0.516);
 }

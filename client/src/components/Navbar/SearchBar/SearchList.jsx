@@ -4,20 +4,19 @@ import './SearchList.css';
 function SearchList({TitleArray,setSearchQuery}) {
     return (
         <>
-        
         <div className="Container_SearchList">
-        {
-            TitleArray.map(m=>{
-            return        <p 
-            key={m}
-            onClick={e=>setSearchQuery(m)}
-            className='titleItem'>
+            {
+                TitleArray.map(m=>{
+                return        <p 
+                key={m}
+                onClick={e=>setSearchQuery(m)}
+                className='titleItem'>
 
-            <FaSearch/>
-            {m}
-            </p>
-            })
-        }
+                <FaSearch/>
+                {m}
+                </p>
+                })
+            }
         </div>
         </>
     )

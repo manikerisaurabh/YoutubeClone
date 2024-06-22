@@ -14,7 +14,7 @@ function SearchBar() {
     const TitleArray=["video1","Video2","Animation video","Movies"].filter(q=>q.toUpperCase().includes(searchQuery.toUpperCase()));
 
     return (
-            <>
+    <>
         <div className="SearchBar_Container">
             <div className="SearchBar_Container2">
                 <div className="search_div">
@@ -58,4 +58,4 @@ function SearchBar() {
     )
 }
 
-export default SearchBar
+export default SearchBar;
