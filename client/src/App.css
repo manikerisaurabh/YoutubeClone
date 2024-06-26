@@ -18,13 +18,13 @@
   background-color: rgb(19,19,19);
 }
 .container2_Pages_App{
-  width: calc(100vw - 5rem);
+  width: calc(100vw - 0rem);
   height: calc(100vh - 3.65rem);
   border-top: 2px solid rgb(128,128,128,0.45);
   overflow-y: auto;
 }
 .video_box_app{
-  width: 21rem;
+  width: 18.7rem;
   height: 17rem;
   margin-bottom: 1rem;
   border: 2px solid transparent;
